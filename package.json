@@ -1,5 +1,8 @@
 {
   "name": "node-fetch-example",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "cors": "^2.7.1",
     "express": "^4.13.4"
