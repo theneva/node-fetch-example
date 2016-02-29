@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+  <div id="container"></div>
+  <script>
+    fetch('http://localhost:2466/colors')
+        .then(res => res.json())
+        .then(colors => {
+          document.getElementById('container').innerHTML = JSON.stringify(colors);
+        });
+
+  </script>
+</body>
+</html>
